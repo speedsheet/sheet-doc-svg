@@ -1,1 +1,21 @@
-# Title
+# SVG
+The SVG file format.
+
+
+### Image - Height
+
+<cb>\<svg height="<v>value<>"><>
+
+Example:
+
+<cb>\<svg height="<v>10mm<>"><>
+
+### Image - Width
+
+<cb>\<svg width="<v>value<>"><>
+
+Example:
+
+<cb>\<svg width="<v>20mm<>"><>
+
+
