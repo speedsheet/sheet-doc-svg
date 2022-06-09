@@ -2,6 +2,7 @@
 The SVG file format.
 
 
+
 ### Image - Height
 
 <cb>\<svg height="<v>value<>"><>
@@ -10,6 +11,8 @@ Example:
 
 <cb>\<svg height="<v>10mm<>"><>
 
+
+
 ### Image - Width
 
 <cb>\<svg width="<v>value<>"><>
@@ -17,5 +20,31 @@ Example:
 Example:
 
 <cb>\<svg width="<v>20mm<>"><>
+
+
+
+### Path - Commands
+
+<table><col>MoveTo<><col><c>M, m<><>
+<col>LineTo<><col><c>L, l, H, h, V, v<><>
+<col>Cubic Bézier Curve<><col><c>C, c, S, s<><>
+<col>Quadratic Bézier Curve<><col><c>Q, q, T, t<><>
+<col>Elliptical Arc Curve<><col><c>A, a<><>
+<col>ClosePath<><col><c>Z, z<><><>
+
+MSDN Docs:
+<l>https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d<>
+
+
+
+#### Path Command - Move To Absolute Coordinate
+
+<cb>M <v>x<>, <v>y<><>
+
+
+#### Path Command - Move To Relative Coordinate
+
+<cb>M <v>dx<>, <v>dy<><>
+
 
 
