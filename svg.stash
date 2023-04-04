@@ -2,6 +2,27 @@
 The SVG file format.
 
 
+# Color
+
+
+### Color - Fill Color
+
+<cb>\<svg fill="<v>color<>"><>
+@
+@ colour
+
+
+
+### Color - Fill with Current Color
+
+<cb>\<svg fill="currentColor"><>
+@
+@ colour, foreground, currentcolor
+
+
+
+# Image
+
 
 ### Image - Height
 
@@ -23,7 +44,10 @@ Example:
 
 
 
-### Path - Commands
+# Path Commands
+
+
+## Path Commands - Basics
 
 <table><col>MoveTo<><col><c>M, m<><>
 <col>LineTo<><col><c>L, l, H, h, V, v<><>
@@ -34,17 +58,38 @@ Example:
 
 MSDN Docs:
 <l>https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d<>
+@
+@ summary
 
 
 
-#### Path Command - Move To Absolute Coordinate
+## Path Commands - Details
+
+
+
+### Path Command - Move To Absolute Coordinate
 
 <cb>M <v>x<>, <v>y<><>
 
 
-#### Path Command - Move To Relative Coordinate
+### Path Command - Move To Relative Coordinate
 
 <cb>M <v>dx<>, <v>dy<><>
+
+
+
+# Acronyms
+@
+@ acronym-only, acronyms-only
+
+
+### SVG
+Scalable Vector Graphics
+
+
+# Terms
+@
+@ term-only, terms-only, glossary, definition, definitions
 
 
 
